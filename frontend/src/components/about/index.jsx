@@ -12,18 +12,17 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Full Stack Developer & AI Enthusiast
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+            I'm a passionate Computer Science Engineering student at AIT with expertise in
+            MERN Stack, AWS, Salesforce CRM, Data Science, and AI/ML. My journey spans
+            from building robust web applications with React.js and Next.js to developing
+            innovative IoT solutions and implementing AI-powered testing frameworks.
+            With hands-on experience in cloud technologies, OCR systems, and image processing,
+            I've successfully delivered projects ranging from disaster recovery systems to
+            smart healthcare solutions. Currently pursuing my B.E. with a CGPA of 8.79,
+            I'm actively contributing to the tech community through hackathons and open-source projects.
           </p>
         </ItemLayout>
 
@@ -31,7 +30,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            150+ <sub className="font-semibold text-base">DSA Problems Solved</sub>
           </p>
         </ItemLayout>
 
@@ -39,8 +38,8 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
-            <sub className="font-semibold text-base">years of experience</sub>
+            8.79{" "}
+            <sub className="font-semibold text-base">CGPA (B.E. CSE)</sub>
           </p>
         </ItemLayout>
 
@@ -49,8 +48,8 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=KushalJetty&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            alt="Kushal Jetty"
             loading="lazy"
           />
         </ItemLayout>
@@ -58,8 +57,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=KushalJetty&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            alt="Kushal Jetty"
             loading="lazy"
           />
         </ItemLayout>
@@ -67,8 +66,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            src={`https://skillicons.dev/icons?i=python,java,c,js,react,nextjs,nodejs,django,flask,aws,mongodb,mysql,postgres,selenium,git,github,html,css,tailwind,bootstrap,figma,vscode,linux,docker`}
+            alt="Kushal Jetty"
             loading="lazy"
           />
         </ItemLayout>
@@ -76,25 +75,54 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=KushalJetty&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
+            alt="Kushal Jetty"
             loading="lazy"
           />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
-            target="_blank"
-            className="w-full"
-          >
-            <img
-              className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
-              loading="lazy"
-            />
-          </Link>
+          <div className="w-full h-auto bg-background/50 backdrop-blur-sm border border-accent/30 rounded-lg p-6">
+            <h3 className="text-accent font-semibold text-lg mb-4">Achievements & Experience</h3>
+            <ul className="text-foreground text-sm space-y-2">
+              <li>• Intern at HAL (Digital Signature Project)</li>
+              <li>• Intern at StreamzAI (Testing Framework)</li>
+              <li>• National/Inter Level Hackathon Wins</li>
+              <li>• IEEE Conference Volunteer</li>
+              <li>• Hackathon Coordinator</li>
+              <li>• First Place in Debugging Competition</li>
+              <li>• 150+ DSA Problems Solved on GeeksforGeeks</li>
+            </ul>
+          </div>
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+          <div className="w-full h-auto bg-background/50 backdrop-blur-sm border border-accent/30 rounded-lg p-6">
+            <h3 className="text-accent font-semibold text-lg mb-4">Education</h3>
+            <div className="text-foreground text-sm space-y-3">
+              <div>
+                <p className="font-semibold">B.E. Computer Science Engineering</p>
+                <p className="text-muted">AIT (2021–2025) • CGPA: 8.79</p>
+              </div>
+              <div>
+                <p className="font-semibold">PUC</p>
+                <p className="text-muted">Shri Sai Angels College (2021) • 90.83%</p>
+              </div>
+              <div>
+                <p className="font-semibold">SSLC</p>
+                <p className="text-muted">St. Mary's High School (2019) • 90.88%</p>
+              </div>
+            </div>
+          </div>
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-full !p-0"}>
+          <div className="w-full h-auto bg-background/50 backdrop-blur-sm border border-accent/30 rounded-lg p-6">
+            <h3 className="text-accent font-semibold text-lg mb-4">Hobbies & Interests</h3>
+            <div className="text-foreground text-sm">
+              <p>When I'm not coding, you can find me playing chess, swimming, or exploring the latest trends in AI and machine learning. I enjoy participating in hackathons and contributing to open-source projects, always looking for new challenges to expand my skillset.</p>
+            </div>
+          </div>
         </ItemLayout>
       </div>
     </section>
