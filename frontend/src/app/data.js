@@ -86,7 +86,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/Kushal_Jetty.pdf",
+    link: "/Kushal_Jetty_v3.pdf",
     icon: "resume",
     newTab: true,
   },
