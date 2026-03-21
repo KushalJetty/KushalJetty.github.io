@@ -30,11 +30,11 @@ export default function Home() {
       </div>
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
-        <div className="absolute flex flex-col items-center text-center top-[65%] sm:top-[75%] left-1/2 -translate-y-1/2 -translate-x-1/2">
-          <h1 className="font-bold  text-6xl xs:text-7xl sm:text-8xl  lg:text-9xl text-accent uppercase">
+        <div className="absolute flex flex-col items-center text-center top-[65%] sm:top-[75%] left-1/2 -translate-y-1/2 -translate-x-1/2 w-full px-4">
+          <h1 className="font-bold text-5xl xs:text-6xl sm:text-7xl lg:text-8xl text-accent uppercase lg:whitespace-nowrap">
             Kushal Jetty K V
           </h1>
-          <p className="font-light text-foreground text-lg mt-2">
+          <p className="font-light text-foreground text-base lg:text-lg mt-2 lg:mt-4 max-w-2xl">
             Software Engineer specializing in Intelligent Systems, Backend Scalability, and Cloud Automation.
           </p>
         </div>
