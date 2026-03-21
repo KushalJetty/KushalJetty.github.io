@@ -23,7 +23,7 @@ const Navigation = () => {
   const isMedium = size >= 768;
 
   return (
-    <div className="w-full fixed h-screen flex items-center justify-center pointer-events-none">
+    <div className="w-full fixed h-screen flex items-center justify-center pointer-events-none z-50">
       <ResponsiveComponent>
         {({ size }) => {
           return size && size >= 480 ? (
