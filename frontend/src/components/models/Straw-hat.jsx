@@ -10,7 +10,7 @@ Title: Luffy Hat
 
 "use client";
 import React, { useRef } from 'react'
-import { useGLTF, Center } from '@react-three/drei'
+import { useGLTF, Center, OrbitControls } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
 const StrawHat = React.memo(function StrawHat(props) {
@@ -25,15 +25,18 @@ const StrawHat = React.memo(function StrawHat(props) {
   });
 
   return (
-    <group {...props} dispose={null} ref={modelRef} position={[0, 0, 0]}>
-      {/* Starting with a generic scale, easily tweakable */}
-      <group scale={[2, 2, 2]} rotation={[0, 0, 0]}>
-        <Center>
-          <mesh geometry={nodes.Object_4.geometry} material={materials.material} />
-          <mesh geometry={nodes.Object_5.geometry} material={materials.line} />
-        </Center>
+    <>
+      <OrbitControls enableZoom={false} enablePan={false} />
+      <group {...props} dispose={null} ref={modelRef} position={[0, 0, 0]}>
+        {/* Starting with a generic scale, easily tweakable */}
+        <group scale={[2, 2, 2]} rotation={[0, 0, 0]}>
+          <Center>
+            <mesh geometry={nodes.Object_4.geometry} material={materials.material} />
+            <mesh geometry={nodes.Object_5.geometry} material={materials.line} />
+          </Center>
+        </group>
       </group>
-    </group>
+    </>
   )
 });
 

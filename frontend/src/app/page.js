@@ -23,9 +23,11 @@ export default function Home() {
 
       <div className="w-full h-screen">
         <Navigation />
-        <RenderModel>
-          <Ace />
-        </RenderModel>
+        <div className="absolute inset-0 z-10">
+          <RenderModel className="!z-auto">
+            <Ace />
+          </RenderModel>
+        </div>
       </div>
     </main>
   );
