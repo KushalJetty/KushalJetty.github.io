@@ -35,7 +35,7 @@ export default function Home() {
             Kushal Jetty K V
           </h1>
           <p className="font-light text-foreground text-base lg:text-lg mt-2 lg:mt-4 max-w-2xl">
-            Software Engineer specializing in Intelligent Systems, Backend Scalability, and Cloud Automation.
+            Backend Developer specializing in Intelligent Systems, Backend Scalability, and Cloud Automation.
           </p>
         </div>
       </div>
