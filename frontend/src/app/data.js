@@ -22,21 +22,21 @@ export const projectsData = [
     name: "StreamzAl Test Generator",
     description: "Flask-based web application for managing, recording, and executing automated browser tests using Playwright.",
     date: "2024-05-10",
-    demoLink: "https://github.com/kushaljetty",
+    demoLink: "https://github.com/kushaljetty/test-generation",
   },
   {
     id: 2,
     name: "GI Disease Detection",
     description: "Deep learning application classifying gastrointestinal diseases from endoscopic images using TensorFlow & OpenCV.",
     date: "2024-03-15",
-    demoLink: "https://github.com/kushaljetty",
+    demoLink: "https://github.com/KushalJetty/GI-Disease-Detection",
   },
   {
     id: 3,
     name: "Digital Signature System",
     description: "Secure user authentication and PDF document signing with RSA cryptography and QR embedding (HAL Internship).",
     date: "2024-02-20",
-    demoLink: "https://github.com/kushaljetty",
+    demoLink: "https://github.com/kushaljetty/LOGINSYSTEM",
   },
   {
     id: 4,
@@ -50,14 +50,14 @@ export const projectsData = [
     name: "Get-Set-Pill",
     description: "IoT pill reminder system built with Node MCU and IR sensors for smart healthcare.",
     date: "2023-11-12",
-    demoLink: "https://github.com/kushaljetty",
+    demoLink: "https://github.com/kushaljetty/Pill-Reminder-Hackathon ",
   },
   {
     id: 6,
     name: "Car Rental System",
     description: "Salesforce CRM project featuring Lightning Web Components and automated dashboards.",
     date: "2023-10-01",
-    demoLink: "https://github.com/kushaljetty",
+    demoLink: "https://github.com/kushaljetty/Custom-cars",
   },
 ];
 
@@ -86,7 +86,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/Kushal_Jetty_v4.pdf",
+    link: "/KUSHAL_JETTY_v5.pdf",
     icon: "resume",
     newTab: true,
   },
